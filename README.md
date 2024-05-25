@@ -81,7 +81,7 @@ Below are the before and after images of geobag detection and counting.
 <div style="display: flex; justify-content: center;">
   <div style="flex: 1; text-align: center; margin: 10px;">
     <h3>Before</h3>
-    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/62fe2c82-4af8-438a-b6f2-e5bc87fb0d6e" alt="Before Image" style="width: 50%; max-width: 400px;">
+    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/62fe2c82-4af8-438a-b6f2-e5bc87fb0d6e" alt="Before Image" style="width: 40%; max-width: 400px;">
   </div>
   <div style="flex: 1; text-align: center; margin: 10px;">
     <h3>After</h3>
