@@ -72,9 +72,20 @@ Create a validation configuration file val_config.yaml for the YOLOv8 model.
 path: '/content/drive/MyDrive/Colab Notebooks/(1) Computer Vision (2023)/yolo_data'
 train: data/images/train  # train images (relative to 'path')
 val: data/images/test  # val images (relative to 'path')
-
-# Classes
-names:
-  0: geobag
 ```
+
+
+## Before and After Images
+
+Below are the before and after images of geobag detection and counting.
+
+### Before
+
+![Before Image]g)![31](https://github.com/AsadShibli/Geobag-counting/assets/119102237/f5674d5b-4850-46f0-9e13-62f84fb16168)
+
+
+### After
+
+![After Image](path/to/after_image.jpg)![download](https://github.com/AsadShibli/Geobag-counting/assets/119102237/f02369f0-8e4c-4d69-9690-b410e6cb43a5)
+
 
