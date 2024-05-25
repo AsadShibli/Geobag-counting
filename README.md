@@ -37,19 +37,18 @@ Below are the before and after images of geobag detection and counting.
     ```python
     from google.colab import drive
     drive.mount('/content/drive')
-    ```
 
 2. **Install Required Libraries**: Install the `ultralytics` package.
     ```python
     !pip install ultralytics
-    ```
+
 
 3. **Navigate to the Project Directory**
 Change the working directory to your project folder.
     ```python
     from google.colab import drive
     %cd "/content/drive/MyDrive/Projects/yolo_count"
-    ```
+
 4. **Check Ultralytics Installation**
 Import the ```ultralytics``` package and run a check to ensure everything is set up correctly.
     ```python
@@ -58,7 +57,7 @@ Import the ```ultralytics``` package and run a check to ensure everything is set
     
     import ultralytics
     ultralytics.checks()
-    ```
+
 5. **Dataset Configuration**
 The ```data.yml``` file should have the following structure:
     ```yaml
@@ -67,20 +66,20 @@ The ```data.yml``` file should have the following structure:
     
     nc: 1  # number of classes
     names: ['geobag']  # class names
-    ```
+
 ### Training the Model
 Train the YOLOv8 model on your dataset.
     ```python
     
     !yolo task=detect mode=train model=yolov8s.pt data=/content/drive/MyDrive/Projects/yolo_count/data.yml epochs=50 imgsz=512 plots=True
-    ```
+
 ### Viewing Training Results
 Display a sample prediction from the validation set to see how the model is performing.
     ```python
     
     from IPython.display import display, Image
     Image(filename='/content/drive/MyDrive/Projects/yolo_count/runs/detect/train14/val_batch0_pred.jpg', width=1200)
-    ```
+
 ### Evaluating the Model
 Validate the model to see its performance on the validation set.
     ```python
@@ -88,13 +87,13 @@ Validate the model to see its performance on the validation set.
         from IPython.display import display, Image
         !yolo task=detect mode=val model=/content/drive/MyDrive/Projects/yolo_count/runs/detect/train14/weights/best.pt data=/content/drive/MyDrive/Projects/yolo_count/data.yml
     
-    ```
+
 ### Running Inference
 Use the trained model to make predictions on the test set.
     ```python
     
     !yolo task=detect mode=predict model=/content/drive/MyDrive/Projects/yolo_count/runs/detect/train14/weights/best.pt data=/content/drive/MyDrive/Projects/yolo_count/data.yml conf=0.25 source=/content/drive/MyDrive/Projects/yolo_count/data/test/images
-    ```  
+
 ### Custom Inference with YOLOv8
 Load the custom model weights and run inference on a source image.
     ```python
@@ -112,7 +111,7 @@ Load the custom model weights and run inference on a source image.
         # Iterate over the generator to view the results
         for result in results:
             print(result)
-    ```  
+
 ### Displaying Results
 Display the results using OpenCV and PIL.
     ```python
@@ -126,7 +125,7 @@ Display the results using OpenCV and PIL.
       
       results = model.predict(source='/content/Copy of 31.JPG', conf=0.4, show_labels=True)
 
-    ``` 
+
 ### Adding Text to Images
 Define a function to add text to an image and display the processed results.L.
     ```python
@@ -159,7 +158,6 @@ Define a function to add text to an image and display the processed results.L.
     cv2.destroyAllWindows()
     
 
-    ``` 
 ### Conclusion
 This README file provides a comprehensive guide to setting up and running the geobag detection and counting project using YOLOv8. Follow the steps outlined to train the model, evaluate its performance, and visualize the results.
     
