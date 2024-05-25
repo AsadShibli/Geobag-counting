@@ -71,11 +71,13 @@ The ```data.yml``` file should have the following structure:
 ### Training the Model
 Train the YOLOv8 model on your dataset.
     ```python
+    
     !yolo task=detect mode=train model=yolov8s.pt data=/content/drive/MyDrive/Projects/yolo_count/data.yml epochs=50 imgsz=512 plots=True
     ```
 ### Viewing Training Results
 Display a sample prediction from the validation set to see how the model is performing.
     ```python
+    
     from IPython.display import display, Image
     Image(filename='/content/drive/MyDrive/Projects/yolo_count/runs/detect/train14/val_batch0_pred.jpg', width=1200)
     ```
@@ -90,6 +92,7 @@ Validate the model to see its performance on the validation set.
 ### Running Inference
 Use the trained model to make predictions on the test set.
     ```python
+    
     !yolo task=detect mode=predict model=/content/drive/MyDrive/Projects/yolo_count/runs/detect/train14/weights/best.pt data=/content/drive/MyDrive/Projects/yolo_count/data.yml conf=0.25 source=/content/drive/MyDrive/Projects/yolo_count/data/test/images
     ```  
 ### Custom Inference with YOLOv8
