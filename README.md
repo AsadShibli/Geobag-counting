@@ -79,13 +79,17 @@ val: data/images/test  # val images (relative to 'path')
 
 Below are the before and after images of geobag detection and counting.
 
-### Before
+<div style="display: flex; justify-content: space-between;">
+  <div style="flex: 1; text-align: center;">
+    <h3>Before</h3>
+    <img src="![31](https://github.com/AsadShibli/Geobag-counting/assets/119102237/62fe2c82-4af8-438a-b6f2-e5bc87fb0d6e)" alt="Before Image" style="width: 100%; max-width: 400px;">
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <h3>After</h3>
+    <img src="path/to/after_image.jpg" alt="After Image" style="width: 100%; max-width: 400px;">
+  </div>
 
-![Before Image]g)![31](https://github.com/AsadShibli/Geobag-counting/assets/119102237/f5674d5b-4850-46f0-9e13-62f84fb16168)
+</div>
 
-
-### After
-
-![After Image](path/to/after_image.jpg)![download](https://github.com/AsadShibli/Geobag-counting/assets/119102237/f02369f0-8e4c-4d69-9690-b410e6cb43a5)
 
 
