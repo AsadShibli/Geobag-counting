@@ -4,6 +4,20 @@
 This project involves detecting and counting geobags using the YOLOv8 model. The total counts are displayed on the resulting images. The dataset was collected from a remote location in Bangladesh. This README file provides instructions on how to set up and run the project. The dataset, which has been uploaded for practice, was manually annotated and converted to the YOLO format. Google Colab was used to access a free GPU for the computations.
 
 ## The dataset has been uploaded for practice.
+## Before and After Images
+
+Below are the before and after images of geobag detection and counting.
+
+<div style="display: flex; justify-content: center;">
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <h3>Before</h3>
+    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/62fe2c82-4af8-438a-b6f2-e5bc87fb0d6e" alt="Before Image" style="width: 40%; max-width: 400px;">
+  </div>
+  <div style="flex: 1; text-align: center; margin: 10px;">
+    <h3>After</h3>
+    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/928d7a41-123e-42ce-a07a-b6dd7cbae079" alt="After Image" style="width: 40%; max-width: 400px;">
+  </div>
+</div>
 
 ## Requirements
 
@@ -74,20 +88,6 @@ train: data/images/train  # train images (relative to 'path')
 val: data/images/test  # val images (relative to 'path')
 ```
 
-## Before and After Images
-
-Below are the before and after images of geobag detection and counting.
-
-<div style="display: flex; justify-content: center;">
-  <div style="flex: 1; text-align: center; margin: 10px;">
-    <h3>Before</h3>
-    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/62fe2c82-4af8-438a-b6f2-e5bc87fb0d6e" alt="Before Image" style="width: 40%; max-width: 400px;">
-  </div>
-  <div style="flex: 1; text-align: center; margin: 10px;">
-    <h3>After</h3>
-    <img src="https://github.com/AsadShibli/Geobag-counting/assets/119102237/928d7a41-123e-42ce-a07a-b6dd7cbae079" alt="After Image" style="width: 40%; max-width: 400px;">
-  </div>
-</div>
 
 
 
