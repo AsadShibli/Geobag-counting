@@ -1,5 +1,0 @@
-train: /content/drive/MyDrive/Projects/yolo_count/data/train/images
-val: /content/drive/MyDrive/Projects/yolo_count/data/val/images
-nc: 1  # number of classes
-names: ['geobag']  # class names
-
