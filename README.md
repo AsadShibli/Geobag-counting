@@ -46,4 +46,5 @@ This project involves detecting and counting geobags using the YOLOv8 model. The
 
 ## Dataset
 
-The dataset is located in your Google Drive under the path:
+The dataset is located in  Google Drive under the path:
+```/content/drive/MyDrive/Colab Notebooks/(1) Computer Vision (2023)/yolo_data ```
