@@ -158,10 +158,10 @@ Define a function to add text to an image and display the processed results.L.
     cv2.destroyAllWindows()
     
 
-### Conclusion
+## Conclusion
 
 This README file provides a comprehensive guide to setting up and running the geobag detection and counting project using YOLOv8. Follow the steps outlined to train the model, evaluate its performance, and visualize the results.
 
-### Contributions
+## Contributions
 
 Contributions are welcome! Feel free to open issues or submit pull requests for any improvements or bug fixes.
