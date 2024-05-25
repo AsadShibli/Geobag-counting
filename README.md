@@ -66,3 +66,12 @@ names:
 ```
 ### Validation Configuration
 Create a validation configuration file val_config.yaml for the YOLOv8 model.
+```yaml
+path: '/content/drive/MyDrive/Colab Notebooks/(1) Computer Vision (2023)/yolo_data'
+train: data/images/train  # train images (relative to 'path')
+val: data/images/test  # val images (relative to 'path')
+
+# Classes
+names:
+  0: geobag
+```
