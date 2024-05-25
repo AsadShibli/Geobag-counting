@@ -3,7 +3,6 @@
 
 This project involves detecting and counting geobags using the YOLOv8 model. The total counts are displayed on the resulting images. The dataset was collected from a remote location in Bangladesh. This README file provides instructions on how to set up and run the project. The dataset, which has been uploaded for practice, was manually annotated and converted to the YOLO format. Google Colab was used to access a free GPU for the computations.
 
-## The dataset has been uploaded for practice.
 ## Before and After Images
 
 Below are the before and after images of geobag detection and counting.
