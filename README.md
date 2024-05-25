@@ -1,7 +1,9 @@
-readme_content = """
+
 # Geobag Counting Project
 
-This project involves detecting and counting geobags using the YOLOv8 model. The dataset was collected from a remote place in Bangladesh. This README file provides instructions on how to set up and run the project.
+This project involves detecting and counting geobags using the YOLOv8 model. The total counts are displayed on the resulting images. The dataset was collected from a remote location in Bangladesh. This README file provides instructions on how to set up and run the project. The dataset, which has been uploaded for practice, was manually annotated and converted to the YOLO format. Google Colab was used to access a free GPU for the computations.
+
+## The dataset has been uploaded for practice.
 
 ## Requirements
 
@@ -17,7 +19,7 @@ This project involves detecting and counting geobags using the YOLOv8 model. The
 
 ## Setup
 
-1. **Mount Google Drive**: Mount your Google Drive to access the dataset and save the model checkpoints.
+1. **Mount Google Drive**: Mount  Google Drive to access the dataset and save the model checkpoints.
     ```python
     from google.colab import drive
     drive.mount('/content/drive')
